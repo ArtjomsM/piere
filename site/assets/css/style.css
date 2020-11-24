@@ -1,0 +1,191 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Oswald:wght@500&display=swap');
+
+* {
+    margin    : 0;
+    padding   : 0;
+    box-sizing: border-box;
+}
+
+/* Global */
+p,
+li,
+a {
+    font-family: 'Montserrat', sans-serif;  
+    font-size  : 18px !important;
+    line-height: 22px;
+    color      : #060606;
+    font-style : normal;
+}
+
+p {
+    font-weight: 400 !important;
+    color      : #2F4858;
+}
+
+li, a {
+    font-weight: 500 !important;
+}
+
+h3,
+h4 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    color      : #2F4858;
+    
+}
+
+h3{
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* /Global */
+
+/* NAV */
+
+.paper-border {
+    background     : url("../img/burn.png") no-repeat bottom;
+    background-size: cover;
+}
+
+.logo {
+    background: url("../img/BlackLogo.png") no-repeat;
+    width     : 159px;
+    height    : 120px;
+}
+
+.show {
+    height: 100vh !important;
+}
+
+.collapsing {
+    height: 100vh !important;
+}
+
+/* /NAV */
+
+/* Sparkle Video */
+.sparkle-video {
+    min-width      : 100%;
+    height         : 50vw;
+    background     : url("../img/SparkleVideo.png") no-repeat center;
+    background-size: cover;
+    margin-top     : 70px;
+}
+
+.play-button {
+    min-width      : 74px;
+    height         : 74px;
+    background     : url("../img/playBtn.png") no-repeat center;
+    background-size: cover;
+    top            : calc(50% + 39px);
+    left           : calc(50% - 39px);
+}
+
+/* /Sparkle Video */
+
+/* Main text */
+main {
+    padding: 150px 0;
+}
+
+/* /Main text */
+
+/* Photo gallery */
+.ripped-effect-top {
+    min-width      : 100%;
+    height         : 30px;
+    background     : url("../img/photo_gallery/ripped-top.png") no-repeat center;
+    background-size: cover;
+    top            : 0;
+    left           : 0;
+    z-index        : 2;
+}
+
+.ripped-effect-bottom {
+    min-width      : 100%;
+    height         : 30px;
+    background     : url("../img/photo_gallery/ripped-bottom.png") no-repeat center;
+    background-size: cover;
+    bottom         : 0;
+    left           : 0;
+    z-index        : 2;
+}
+
+@media only screen and (min-width: 1200px) {
+    .photo-full {
+        height: 500px;
+    }
+
+    .photo-half {
+        height: 250px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .photo-full {
+        height: 400px;
+    }
+
+    .photo-half {
+        height: 200px;
+    }
+}
+
+.photo1 {
+    background     : url("../img/photo_gallery/photo1.png") no-repeat center;
+    background-size: cover;
+}
+
+.photo2 {
+    background     : url("../img/photo_gallery/photo2.png") no-repeat center;
+    background-size: cover;
+}
+
+.photo3 {
+    background     : url("../img/photo_gallery/photo3.png") no-repeat center;
+    background-size: cover;
+}
+
+.photo4 {
+    background     : url("../img/photo_gallery/photo4.png") no-repeat top;
+    background-size: cover;
+}
+
+.photo5 {
+    background     : url("../img/photo_gallery/photo5.png") no-repeat center;
+    background-size: cover;
+}
+
+/* /Photo gallery */
+
+/* Question section */
+
+.btn-orange {
+    background-color: #ffa800;
+    color: #fff;
+    padding: 11px 50px;
+    margin-top: 50px;
+    border-radius: 25px;
+}
+
+.btn-orange:hover {
+    color: #ddd;
+}
+
+.pt-150 {
+    padding-top: 150px;
+}
+
+.pb-150 {
+    padding-bottom: 150px;
+}
+/* /Question section */
