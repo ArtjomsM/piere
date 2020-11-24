@@ -10,21 +10,29 @@
 /* Global */
 p,
 li,
-a {
-    font-family: 'Montserrat', sans-serif;  
+a,
+input,
+textarea,
+label,
+.text {
+    font-family: 'Montserrat', sans-serif;
     font-size  : 18px !important;
     line-height: 22px;
-    color      : #060606;
     font-style : normal;
 }
 
-p {
+p,
+input,
+label,
+.text {
     font-weight: 400 !important;
     color      : #2F4858;
 }
 
-li, a {
+li,
+a {
     font-weight: 500 !important;
+    color      : #060606;
 }
 
 h3,
@@ -32,19 +40,25 @@ h4 {
     font-family: 'Oswald', sans-serif;
     font-weight: 500;
     color      : #2F4858;
-    
+
 }
 
-h3{
-    font-size: 30px;
+h3 {
+    font-size  : 30px;
+    line-height: 44.46px;
 }
 
 h4 {
-    font-size: 24px;
+    font-size  : 24px;
+    line-height: 35.57px;
 }
 
 a {
     text-decoration: none;
+}
+
+ul li {
+    list-style: none;
 }
 
 /* /Global */
@@ -171,10 +185,10 @@ main {
 
 .btn-orange {
     background-color: #ffa800;
-    color: #fff;
-    padding: 11px 50px;
-    margin-top: 50px;
-    border-radius: 25px;
+    color           : #fff;
+    padding         : 11px 50px;
+    margin-top      : 50px;
+    border-radius   : 25px;
 }
 
 .btn-orange:hover {
@@ -188,4 +202,110 @@ main {
 .pb-150 {
     padding-bottom: 150px;
 }
+
 /* /Question section */
+
+/* Contact */
+.form-control,
+textarea {
+    background    : rgba(196, 196, 196, 0.4);
+    border-radius : 6px;
+    border        : 0;
+    padding-top   : 6px;
+    padding-bottom: 6px;
+
+}
+
+textarea {
+    resize: none;
+    height: 232px;
+}
+
+.font-size-14 {
+    font-size: 14px !important;
+}
+
+input[type=checkbox] {
+    visibility: hidden;
+}
+
+
+.checkbox {
+    position        : absolute;
+    top             : 0;
+    left            : 0;
+    width           : 16px;
+    height          : 16px;
+    background-color: #e7e7e7;
+    border-radius   : 3px;
+}
+
+/* /Contact */
+
+/* Atbalstitaji */
+.bg-orange {
+    background-color: #FFCB66;
+}
+
+/* /Atbalstitaji */
+
+/* Footer */
+.ripped-effect-top-dark {
+    background-image: url("../img/footer.png");
+    background-size : cover;
+    height          : 30px;
+    width           : 100%;
+    top             : -30px;
+    left            : 0;
+    z-index         : 2;
+}
+
+footer {
+    background: #2f4858
+}
+
+footer a {
+    color: #fff;
+}
+
+footer a:hover {
+    color          : #ddd;
+    text-decoration: none;
+}
+
+footer ul li,
+footer .text {
+    padding: 10px 0 10px 30px;
+}
+
+.font-size-24 {
+    font-size: 24px !important;
+}
+
+.fa-instagram,
+.fa-facebook-f {
+    color: #fff;
+}
+
+@media only screen and (min-width: 992px) {
+    .owner {
+        text-align: right;
+    }
+
+    .social {
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .owner {
+        text-align: left;
+    }
+
+    .social {
+        padding-left: 30px;
+    }
+}
+
+/* /Footer */
