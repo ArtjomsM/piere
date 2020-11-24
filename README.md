@@ -1,1 +1,2 @@
-# piere
+# Artjoms Miņejevs
+Jau no bērnības zināju, ka gribu darbu saistībā ar datoriem un gribēju iet mācīties par programmētāju. Tomēr kad pienāca laiks universitātei, izvēlējos elektronikas fakultāti nevis IT. Pēc skolas fizikas, elektronika likās interesanta, ka arī kursa aprakstā bija minēts, ka būs arī programmēšana, padomāju ka būs labs apvienojums, visam, kas interesē. Pēc pirmā kursa sapratu, ka vairāk interesē programmēšana, bet sāku strādāt un pārgāju uz neklātienes kursiem, IT programmām neklātienes nebija. Mājās mēģināju mācīties codecademy, tad sapratu, ka gribās, lai kāds paskaidro, tāpēc aizgāju uz kursiem.
