@@ -70,7 +70,7 @@ ul li {
     background-size: cover;
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 576px) {
     .logo {
         background: url("../img/BlackLogo.png") no-repeat;
         width     : 159px;
@@ -78,7 +78,7 @@ ul li {
     }
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 576px) {
     .logo {
         background: url("../img/smallLogo.png") no-repeat;
         width     : 109px;
@@ -119,6 +119,18 @@ ul li {
 /* Main text */
 main {
     padding: 150px 0;
+}
+
+@media only screen and (min-width: 768px) {
+    main {
+        padding: 150px 0;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    main {
+        padding: 50px 0;
+    }
 }
 
 /* /Main text */
