@@ -70,10 +70,20 @@ ul li {
     background-size: cover;
 }
 
-.logo {
-    background: url("../img/BlackLogo.png") no-repeat;
-    width     : 159px;
-    height    : 120px;
+@media only screen and (min-width: 992px) {
+    .logo {
+        background: url("../img/BlackLogo.png") no-repeat;
+        width     : 159px;
+        height    : 120px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .logo {
+        background: url("../img/smallLogo.png") no-repeat;
+        width     : 109px;
+        height    : 70px;
+    }
 }
 
 .show {
